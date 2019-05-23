@@ -1,0 +1,33 @@
+#out{
+  text-align: center;
+  left: 50%; 
+  color: white;
+}
+
+body{
+  background: black;
+}
+
+#in{
+  position: absolute;
+  transform: translate(-50%, 0%);
+  top: 0%;
+  left: 50%;
+  margin-top: 80px;
+  /*background: #007599;*/
+  background: black;
+  box-shadow: 1px 1px 3px 5px gray;
+  width: 100%;
+  height: 100%;
+}
+
+.tooltip {   
+  position: absolute;			
+  min-width: 100px;					
+  padding: 5px;				
+  font-size: 13px;
+  font-family: arial;
+  background: white;	
+  border-radius: 5px;		
+  text-align: left;
+}
